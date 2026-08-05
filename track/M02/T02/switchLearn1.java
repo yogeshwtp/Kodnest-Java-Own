@@ -1,0 +1,26 @@
+package T02;
+public class switchLearn1 {
+    public static void main(String[] args) {
+
+        int day = 6;
+
+        // Write the switch statement
+        switch (day) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Learning day");
+                break;
+
+            case 6:
+            case 7:
+                System.out.println("Revision Day");
+                break;
+
+            default:
+                System.out.println("Invalid Day");
+        }
+    }
+}
