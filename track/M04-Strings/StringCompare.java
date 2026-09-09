@@ -11,7 +11,7 @@ public class StringCompare{
      if(s1.equalsIgnoreCase(s2)){
         System.out.println("Strings are same");  
      }else{
-        System.out.println("Content are different");
+        System.out.println("Strings are different");
      }
     }
 }
