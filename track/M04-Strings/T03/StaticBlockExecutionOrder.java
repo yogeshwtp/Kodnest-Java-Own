@@ -26,5 +26,6 @@ public class StaticBlockExecutionOrder {
         Demo d1 = new Demo();
         Demo d3 = new Demo();
         Demo d2 = new Demo();
+        // dfdfsfe
     }
 }
