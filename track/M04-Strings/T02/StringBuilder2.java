@@ -1,3 +1,4 @@
+package T02;
 public class StringBuilder2{
     public static void main(String[] args){
         StringBuilder sbr = new StringBuilder("Java");

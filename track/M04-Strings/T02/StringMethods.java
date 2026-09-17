@@ -1,5 +1,6 @@
-public class StringMethods{
-    public static void main(String[] args){
+package T02;
+public class StringMethods {
+    public static void main(String[] args) {
 
         String str = "KodNest Technologies";
         String s1 = "Yogesh";
@@ -22,7 +23,7 @@ public class StringMethods{
         System.out.println(str.length());
         System.out.println(str.replace('e', 'A'));
         System.out.println(str.substring(5));
-        System.out.println(str.subString(5, 14));
+        System.out.println(str.substring(5, 14));
 
         System.out.println(s1.isBlank());
         System.out.println(s1.isEmpty());

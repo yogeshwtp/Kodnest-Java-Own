@@ -1,3 +1,4 @@
+package T02;
 public class StringCompare{
     public static void main(String[] args) {
      String s1 = "Java";

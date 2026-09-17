@@ -1,5 +1,6 @@
-public class StringBuilder3{
-    public ststic void main(String[] args){
+package T02;
+public class StringBuilder3 {
+    public static void main(String[] args) {
         StringBuilder sbr = new StringBuilder("Java");
         sbr.ensureCapacity(100);
         System.out.println(sbr.capacity());
@@ -8,7 +9,7 @@ public class StringBuilder3{
         System.out.println(sbr);
         sbr.insert(0, "Python ");
         System.out.println(sbr);
-        sbr.delete(0,4);
+        sbr.delete(0, 4);
         System.out.println(sbr);
         sbr.reverse();
         System.out.println(sbr);

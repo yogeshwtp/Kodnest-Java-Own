@@ -1,4 +1,5 @@
-public class ImmutableString{
+package T01;
+class ImmutableString{
     public static void main(String[] args){
         String s1 = "Java";
         String res = s1.toUpperCase();
