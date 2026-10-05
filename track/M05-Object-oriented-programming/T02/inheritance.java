@@ -1,4 +1,3 @@
-package T02;
 
 class demo1 {
     int a = 10;
